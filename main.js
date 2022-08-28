@@ -70,7 +70,7 @@ function apiRequests() {
         const message = `Request return status: ${response.status}`;
         console.error(message);
         return {
-          result: true,
+          result: false,
           message,
         };
       }
@@ -110,7 +110,7 @@ function apiRequests() {
         const message = `Request return status: ${response.status}`;
         console.error(message);
         return {
-          result: true,
+          result: false,
           message,
         };
       }
